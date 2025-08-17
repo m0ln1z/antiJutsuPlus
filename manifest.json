@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Jutsu Blocker Remover",
+  "version": "1.0",
+  "description": "Удаляет блокировку просмотра на jut.su",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://jut.su/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Jutsu Blocker Remover"
+  }
+}
