@@ -1,5 +1,5 @@
 # Jutsu Blocker Remover
-# STILL NOT WORKED 
+# STILL NOT WORKING
 
 Расширение для браузера, которое автоматически удаляет блокировку просмотра на сайте jut.su.
 
